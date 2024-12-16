@@ -1,0 +1,12 @@
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+
+X_train = np.random.randint(2, size=(1000, 100, 4))
+y_train = np.random.randint(2, size=(1000, 1))
+X_train_flat = X_train.reshape(X_train.shape[0], -1)
+
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train_flat)
+
+pca = PCA(n_components=0.95)
+X_train_pca = pca.fit_transform(X_train_scaled)
