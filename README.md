@@ -9,7 +9,7 @@ This repository includes the codes from two different attempts to replicate the 
 
 1. Notebooks: Including notebooks and codes from the 2 attempts and intended innovations
    
-- First_Attempt_RawData_Analysis.ipynb: Analysis of the raw data downloaded from the Immunological Genome Project website.
+- First_Attempt_RawData_Analysis.ipynb and First_Attempt_RawData_Analysis_V2.ipynb: Analysis of the raw data downloaded from the Immunological Genome Project website.
   Result: Failed to replicate the results due to 
 - Second_Attempt_sample_data_Analysis: Use the available processed data of 100 NGUs from the original Github to train the available AI-TAC Model from the AI-TAC Repository by running:
 
